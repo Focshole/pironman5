@@ -99,6 +99,7 @@ class SF_Installer:
         self.pacman_build_dependencies = set()
         self.before_install_commands = {}
         self.custom_apt_dependencies = set()
+        self.custom_pacman_dependencies = set()
         self.custom_pip_dependencies = set()
         self.python_source = {}
         self.config_txt = {}
